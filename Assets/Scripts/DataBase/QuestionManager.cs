@@ -20,7 +20,7 @@ public class QuestionManager : MonoBehaviour
 
     private void Start()
     {
-        _pathToDatabase = "Data Source=D:/DiplomPrograms/Diplom";
+        _pathToDatabase = "Data Source=D:/programer/Create/Diplom/InterviewQuiz/Assets/StreamingAssets/Diplom";
 
         Debug.Log("Подключение прошло успешно. Путь: " + _pathToDatabase);
 
